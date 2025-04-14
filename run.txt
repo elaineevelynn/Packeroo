@@ -1,0 +1,7 @@
+NEED TO INSTALL: 
+    - pip install tk
+    - pip install kink
+    - pip install pytest
+
+MOCK DATABASE: python -m packeroo -dbinit="True" 
+REAL DATABASE: python -m packeroo -dbinit="False" -dburl="packeroo_db.db"
